@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    width:full;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 0px 45px;
+}
+
+.site-logo {
+    height: 80px;
+}
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap:20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.apply-button{
+    background-color: #ad070e;
+    color: white;
+    font-size: 18px;;
+    height: 35px;
+    border-radius: 5px;
+   justify-content: center;
+   text-align: center;5px;
+   
+}
+.hero-section {
+    height: 800px;
+    background-image: url(https://chitwancollege.edu.np/Frontend/assets/images/homebanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding: 80px;
+    display: flex;
+    gap: 125px;
+}
+.hero-section h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(206,29,29);
+}
+
+.about{
+    height: 500px;
+}
+
